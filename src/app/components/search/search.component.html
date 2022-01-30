@@ -1,0 +1,11 @@
+<div class="p-grid toolbar">
+    <div class="p-col-4">
+      <span class="p-ml-2">Movein Berlin</span>
+    </div>
+    <div class="p-col-6">
+      <p-autoComplete class="searchBar1" placeholder="Search Station" [(ngModel)]="searchStations" [suggestions]="filteredStations" (completeMethod)="filterStation($event)"
+      field="name" (onSelect)="showStationDetails($event)" [minLength]="1"></p-autoComplete>
+    </div>
+      <div class="p-col-2" ><p-button routerLink="" routerLinkActive="active" label="Favorites" icon="pi pi-heart" class="p-button-rounded p-button-help"></p-button></div>
+
+</div>
