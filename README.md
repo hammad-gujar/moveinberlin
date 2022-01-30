@@ -1,8 +1,8 @@
-# Small Project to Search the Transport Connections on Searched Station
+# Small Project to Search the Transport Connections from Searched Station
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 The project search and displays the transport connections i.e. train, bus, tram etc from the searched station.
  - It is using an [api](https://v5.vbb.transport.rest/) to get connections details from the searched station.
- - For the UI, [PrimeNG](https://v5.vbb.transport.rest/) is used.
+ - For the UI, [PrimeNG](https://www.primefaces.org/primeng/) is used.
  - The application keeps the track of searched stations.
  - Connection information is displayed which contains the direction, planned time, arrival time, and the medium of transport. It also displays the warnings which are associated witht the journey. 
  - It also have the function to favorite the stations.
